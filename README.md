@@ -582,13 +582,13 @@ git --version
 # 📥 Clone the Repository
 
 ```bash
-git clone <https://github.com/hritikranjan1/django-notes-app.git>
+git clone https://github.com/hritikranjan1/django-notes-app.git
 ```
 
 Move into the project:
 
 ```bash
-cd <django-notes-app>
+cd django-notes-app
 ```
 
 ---
@@ -1577,27 +1577,40 @@ Security Scanning
 That makes it a useful portfolio project for demonstrating practical Docker and DevOps fundamentals.
 
 ---
+## 🎥 Reference Video
 
-# 👨‍💻 Author
+This project is based on the following tutorial by **Train with Shubham**:
 
-**Hritik Ranjan**
+▶️ **Dockerizing a Django Application**  
+https://youtu.be/9bSbNNH4Nqw
 
-Focus:
-
-```text
-QA Engineer
-DevOps & Cloud Learner
-Docker | AWS | Linux | CI/CD
+**Creator:** Train with Shubham
 ```
+## 📸 Project Screenshots
 
+### 1. Application Output
+
+This screenshot shows the final output of the Django Notes application.
+
+![Application Output](./Output.png)
+
+
+### 2. VS Code – Project Code
+
+This screenshot shows the project source code and structure in VS Code.
+
+![VS Code Project](./VScodeimg.png)
+
+
+### 3. Docker Image Build Process
+
+This screenshot shows the Docker image being built successfully.
+
+![Docker Image Build Process](./Dockerimagesprocess.png)
 ---
 
 ## ⭐ If this project helped you
 
 Give the repository a ⭐ and use it as a starting point for learning Docker, Docker Compose, and DevOps deployment practices.
 
----
 
-## 📄 License
-
-Add the appropriate license for your repository, such as MIT, if you intend to distribute the project as open source.
