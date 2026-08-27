@@ -1,8 +1,59 @@
 # 🐳 Docker DevOps Project – Django Notes Application
 
-A complete Dockerized **Django Notes Application** demonstrating containerization, multi-container orchestration, networking, persistent storage, healthchecks, environment configuration, and Nginx reverse proxy.
+A complete **Dockerized Django Notes Application** demonstrating **containerization, multi-container orchestration, networking, persistent storage, healthchecks, environment configuration, and Nginx reverse proxy.**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-Web%20Application-092E20?logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-Reverse%20Proxy-009639?logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?logo=jenkins&logoColor=white" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/hritikranjan1">
+    <img src="https://img.shields.io/badge/GitHub-Hritik%20Ranjan-181717?logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/hritikranjan1/">
+    <img src="https://img.shields.io/badge/LinkedIn-Hritik%20Ranjan-0A66C2?logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://hritikranjan.in">
+    <img src="https://img.shields.io/badge/Blog-hritikranjan.in-FF5722?logo=googlechrome&logoColor=white" />
+  </a>
+</p>
 
 ---
+
+## 📸 Project Screenshots
+
+### 🚀 1. Application Output
+
+This screenshot shows the final output of the Django Notes application.
+
+![Application Output](./Output.png)
+
+### 💻 2. VS Code – Project Code
+
+This screenshot shows the project source code and structure in VS Code.
+
+![VS Code Project](./VScodeimg.png)
+
+### 🐳 3. Docker Image Build Process
+
+This screenshot shows the Docker image being built successfully.
+
+![Docker Image Build Process](./Dockerimagesprocess.png)
+
+---
+
+## 🎥 Reference Video
+
+📺 **Train with Shubham – Dockerizing Django Application**
+
+🔗 https://youtu.be/9bSbNNH4Nqw
+
+---
+
 
 ## 📌 Table of Contents
 
@@ -1586,31 +1637,30 @@ https://youtu.be/9bSbNNH4Nqw
 
 **Creator:** Train with Shubham
 ```
-## 📸 Project Screenshots
-
-### 1. Application Output
-
-This screenshot shows the final output of the Django Notes application.
-
-![Application Output](./Output.png)
 
 
-### 2. VS Code – Project Code
 
-This screenshot shows the project source code and structure in VS Code.
+## 🔗 Connect With Me
 
-![VS Code Project](./VScodeimg.png)
+💼 **LinkedIn:**  
+https://www.linkedin.com/in/hritikranjan1/
 
+🌐 **Website:**  
+https://hritikranjan.in
 
-### 3. Docker Image Build Process
+📝 **DevOps Blogs:**  
+https://blogs.hritikranjan.in
 
-This screenshot shows the Docker image being built successfully.
+💻 **GitHub:**  
+https://github.com/hritikranjan1
 
-![Docker Image Build Process](./Dockerimagesprocess.png)
 ---
 
-## ⭐ If this project helped you
 
-Give the repository a ⭐ and use it as a starting point for learning Docker, Docker Compose, and DevOps deployment practices.
+<p align="center">
+  🚀 <b>Built with Docker • Django • MySQL • Nginx • Jenkins</b> 🚀
+</p>
 
-
+<p align="center">
+  ⭐ If you found this project useful, please consider giving the repository a Star!
+</p>
