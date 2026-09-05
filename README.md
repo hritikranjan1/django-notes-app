@@ -1635,7 +1635,7 @@ This project is based on the following tutorial by **Train with Shubham**:
 ▶️ **Dockerizing a Django Application**  
 https://youtu.be/9bSbNNH4Nqw
 
-**Creator:** Train with Shubham
+**Creator:** Train with Shubham - Youtube
 ```
 
 
