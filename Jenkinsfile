@@ -1,17 +1,58 @@
-def call(String Project, String ImageTag, String DockerHubUser) {
+@Library("Shared") _
 
-    withCredentials([
-        usernamePassword(
-            credentialsId: 'dockerhubcred',
-            usernameVariable: 'DOCKERHUB_USER',
-            passwordVariable: 'DOCKERHUB_PASS'
-        )
-    ]) {
+pipeline {
+    agent { label "vinod" }
 
-        sh """
-            echo "\$DOCKERHUB_PASS" | docker login -u "\$DOCKERHUB_USER" --password-stdin
-            docker push ${DockerHubUser}/${Project}:${ImageTag}
-            docker logout
-        """
+    stages {
+
+        stage("Hello") {
+            steps {
+                script {
+                    hello()
+                }
+            }
+        }
+
+        stage("Code") {
+            steps {
+                script {
+                    clone(
+                        'https://github.com/hritikranjan1/django-notes-app.git',
+                        "main"
+                    )
+                }
+            }
+        }
+
+        stage("Build") {
+            steps {
+                script {
+                    docker_build(
+                        "notes-app",
+                        "latest",
+                        "hritikranjan1"
+                    )
+                }
+            }
+        }
+
+        stage("Push Images to Docker Hub") {
+            steps {
+                script {
+                    docker_push(
+                        "notes-app",
+                        "latest",
+                        "hritikranjan1"
+                    )
+                }
+            }
+        }
+
+        stage("Deploy") {
+            steps {
+                echo "Deploying the application..."
+                sh "docker compose up -d"
+            }
+        }
     }
 }
